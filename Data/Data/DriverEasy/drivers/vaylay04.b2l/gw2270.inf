@@ -1,0 +1,83 @@
+; ------------------------------------------------
+; Copyright (c) 2015 BenQ Corporation
+; Issue date -- 06/15/2015
+; revision 1
+; This is a setupfile for GW2270
+; ------------------------------------------------
+;
+
+[Version]
+signature="$CHICAGO$"
+Class=Monitor
+ClassGuid={4D36E96E-E325-11CE-BFC1-08002BE10318}
+Provider=%BenQ%
+CatalogFile=GW2270.cat
+DriverVer=06/15/2015,1.0
+
+[SourceDisksNames]
+1=%DiskName%,,,
+
+[SourceDisksFiles]
+GW2270.icm=1
+
+[DestinationDirs]
+DefaultDestDir  = 12
+GW2270.CopyFiles = 23
+
+[ControlFlags]
+ExcludeFromSelect.NT=Monitor\BNQ78DB
+
+[Manufacturer]
+%BenQ%=BenQ,NTx86,NTAMD64
+
+[BenQ]
+%GW2270%=GW2270.Install, Monitor\BNQ78DB
+
+[BenQ.NTx86]
+%GW2270%=GW2270.Install, Monitor\BNQ78DB
+
+[BenQ.NTAMD64]
+%GW2270%=GW2270.Install, Monitor\BNQ78DB
+
+
+[Monitor_Service.Install]
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%12%\monitor.sys
+
+[GW2270.Install]
+DelReg=DEL_CURRENT_REG
+AddReg=GW2270.AddReg, 1920, DPMS
+CopyFiles=GW2270.CopyFiles
+
+
+[GW2270.Install.Services]
+AddService=monitor, %SPSVCINST_ASSOCSERVICE%, Monitor_Service.Install
+
+[DEL_CURRENT_REG]
+HKR,MODES
+HKR,,MaxResolution
+HKR,,DPMS
+HKR,,ICMProfile
+
+[1920]
+HKR,,MaxResolution,,"1920,1080"
+
+[DPMS]
+HKR,,DPMS,,1
+
+[GW2270.AddReg]
+HKR,"MODES\1920,1080",Mode1,,"30.0-83.0,50.0-76.0,+,+"
+HKR,,ICMProfile,0,"GW2270.icm"
+
+
+[GW2270.CopyFiles]
+GW2270.icm
+
+
+[Strings]
+SPSVCINST_ASSOCSERVICE = 0x00000002
+BenQ="BenQ Inc."
+DiskName="BenQ Monitor installation disk"
+GW2270="BenQ GW2270"

@@ -1,0 +1,107 @@
+//* 4.5.4 2019/03/31
+//* CCEnhancer Japanese localizations
+//* http://yukto8492.blogspot.jp/
+//* translated by Yukto8492
+1) File doesn't exist|1) ファイルがありません
+2) Remote server error|2) リモートサーバーのエラー
+About|CCEnhancer について
+Add Custom Location|別の位置を追加
+Add Location|場所を追加
+Add Relative Path|相対パスを追加
+Add Portable Location|ポータブル版 CCleaner の場所を追加
+Advanced|拡張設定
+Allows you to set a custom folder to download CCEnhancer's definitions into|CCEnhancer の定義をダウンロードするためのカスタムフォルダを設定できる
+An error occurred while downloading file. Possible causes:|ファイルダウンロード中にエラーが発生しました。理由は以下の通りです:
+An error was encountered.|エラーが発生しました。
+Automatically download and install the latest definitions to increase the cleaning capabilities of CCleaner by adding hundreds of extra programs.|CCleaner のクリーニング機能を高めるために、幾つかのプログラム向けの設定を追加した定義ファイルの最新版を自動的にダウンロードし、インストールします。
+Buy Me Cake :)|私にケーキを買ってください :)
+CCleaner.exe could not be found in the directory you selected.|指定したフォルダに CCleaner.exe がありません。
+Cancelled|キャンセルしました
+Check For Update|更新確認
+Check for program update|プログラムの更新確認
+Close|閉じる
+Command:|コマンド:
+Completed analysis of winapp2.ini.|winapp2.ini の検査が完了しました。
+Could not make a connection to The Web Atom server or the Upload Central server. Please see our online help for assistance.|ウェブ・アトム又は中央アップロードサーバーへ接続出来ませんでした。私たちのオンラインヘルプを参照してください。
+Custom Entries|カスタムエントリ
+Debug winapp2.ini entries|winapp2.ini 内エントリのデバッグ
+Delete Custom Rules|CCEnhancer 独自設定を消去する
+Documentation|ドキュメント
+Download Latest|定義ファイルの更新
+Download Speed:|ダウンロード速度:
+Download has been cancelled.|ダウンロードはキャンセルされました。
+Download speed:|ダウンロード速度:
+Enable|有効
+Error: '%ProgramFiles%' variable should not have spacing.|エラー: 変数'%ProgramFiles%' にはスペースを含めるな。
+Error: 'Detect' can only be used for registry key paths.|エラー: '検出'はレジストリキーのパスにのみ使用可能。
+Error: 'DetectFile' can only be used for filesystem paths.|エラー: 'DetectFile' はファイルシステムパスに対してのみ使用可能。
+Error: 'FileKey' entry is incorrectly spelled or formatted. Spelling should be CamelCase.|エラー: 'FileKey' エントリのスペルが間違っているかフォーマットされている。綴りはCamelCaseであるべき。
+Error: 'RegKey' entry is incorrectly spelled or formatted. Spelling should be CamelCase.|エラー: 'RegKey'エントリのスペルが間違っているかフォーマットされている。綴りはCamelCaseであるべき。
+Error: All entries should be disabled by default.|エラー: すべてのエントリはデフォルトで無効にされているべき。
+Error: Cleaning path entry needs to have a trailing number.|エラー: クリーニングパスのエントリには末尾の番号を付ける必要がある。
+Error: Detected unwanted whitespace at beginning of line.|エラー: 行頭で不要な空白を検出した。
+Error: Detected unwanted whitespace at end of line.|エラー: 行末で不要な空白を検出した。
+Error: Entries must use an asterisk ( * ) to specify that they are user-created.|エラー: エントリーは、ユーザー作成であることを指定するためにアスタリスク（*）を使う必要があります。
+Error: Environmental variables must have a trailing backslash.|エラー: 環境変数は末尾に円記号を付けるべき。
+Exit|終了
+File Size:|ファイルサイズ:
+File size:|ファイルサイズ:
+Functions|機能
+Help|ヘルプ
+Install For Portable CCleaner|ポータブル版 CCleaner をインストール
+It looks like the rules aren't installed or you don't have permission to delete the file. You can manually remove the custom rules by deleting the following file:|定義ファイルがインストールされなかったか、ファイルを削除するための権限がないと思われます。手動で以下の定義ファイルを削除してください:
+LangSecRef entry is incorrectly spelled or formatted.|LangSecRef エントリのスペルまたはフォーマットが間違っている。
+Language:|表示言語:
+Line:|行:
+Online Documentation|オンラインドキュメント
+Options|オプション
+Password:|パスワード:
+Please select the directory containing portable CCleaner.|ポータブル版 CCleaner が存在するフォルダを指定してください
+Port:|ポート:
+Portable Locations|ポータブル版 CCleaner の場所
+Program Settings|プログラム設定
+Property can only be set to Nothing|プロパティはNothingにのみ設定できる。
+Proxy Server:|プロキシサーバー:
+Proxy Settings|プロキシの設定
+Refresh|リフレッシュ
+Remove cleaning rules that don't apply to your system|システムに反映されていないクリーニング設定を削除する
+Removes the custom cleaning rules provided by CCEnhancer|CCEnhancer 独自のクリーニング設定を削除する
+Rules Last Updated:|定義ファイルの更新:
+Rules Last Updated:|定義ファイルの更新:
+Run CCleaner Silently On Completion|終了時に CCleaner を起動する
+Run CCleaner silently on completion|終了後に CCleaner を起動する
+Save Log|ログを保存
+Save To:|保存先:
+Save and Close|保存して閉じる
+Save to:|保存先:
+Saved Path|保存先のパス
+Settings|設定
+Speed: Calculating...|速度計算中…
+Speed:|速度:
+Successfully downloaded|ダウンロードは成功しました
+The custom rules were successfully removed.|独自定義の削除に成功しました
+The following entries will be added to CCleaner after each definition update.|これらの設定は、各定義更新後に追加されます
+The rules have not been downloaded yet.|定義はダウンロードされていません
+This button downloads the latest CCEnhancer definitions|このボタンは最新の CCEnhancer の定義をダウンロードする。
+This button is for advanced users to check for errors in their custom rules|このボタンは、上級ユーザーがカスタムルールのエラーを確認するためのもの。
+This error can be caused by incorrect proxy settings or a security product conflict.|このエラーはプロキシサーバーの間違った設定か、指定したプロダクトの衝突によるものです
+Trim definition file to improve performance|定義ファイルを整理してパフォーマンスを向上させる
+Trim winapp2.ini|winapp2.ini を整理する
+Update On Windows Startup|Windows 起動時に更新を行う
+Update On Windows startup|Windows 起動時に更新を行う
+Update completed|更新が完了しました
+Use Alternate Downloader|他のダウンローダを使う
+Use IE Native Downloader|IE 純正ダウンローダを使う
+Use alternative download URL|予備ダウンロードサイトを使用する
+Use proxy server to download definitions?|ダウンロードの際にプロキシサーバーを使いますか?
+User Name:|ユーザー名:
+Uses an alternative method of downloading. Useful if the normal method doesn't work.|代替のダウンロード方法を使用します。通常の方法でうまくいかない場合に便利。
+Version|バージョン
+Visit Website|Web サイトへ行く
+Would you like to run CCleaner now?|CCleaner を起動しますか?
+Would you like to save|保存しますか
+Your changes will take effect when CCEnhancer is restarted.|CCEnhancer を再起動すると変更を反映します。
+errors were detected.|エラーを検知しました。
+error|エラー
+so CCEnhancer can find it next time?|次回 CCEnhancer は見つけられますか?
+winapp2.ini file could not be located in the current working directory|winapp2.ini ファイルが現在の作業ディレクトリに見つかりませんでした。

@@ -1,0 +1,81 @@
+﻿Trimmed winapp2.ini in:|Uklanja nepotrebne unose u winapp2.ini:
+Trim winapp2.ini|Čišćenje winapp2.ini
+Trim definition file to improve performance|Ukloni datoteku definicija za poboljšanje performansi
+Use alternative download URL|Upotreba alternativnih adresa preuzimanja
+Removes the custom cleaning rules provided by CCleaner|Uklanja korisnička pravila čišćenja koje pruža CCleaner
+Uses an alternative method of downloading. Useful if the normal method doesn't work.|Koristi alternativni način preuzimanja. Korisno je ako normalan način ne radi.
+Completed analysis of winapp2.ini.|Analiza winapp2.ini je završena
+winapp2.ini file could not be located in the current working directory (|winapp2.ini datoteka ne može biti ronađena u trenutnom radnom direktoriju (
+Use Alternate Downloader|Upotrijebite alternativne programe za preuzimanje
+Your changes will take effect when CCEnhancer is restarted.|Promjene će stupiti na snagu kada se ponovno CCEnhancer pokrene.
+Remove Item|Ukloni stavku
+Options|Mogućnosti
+Portable Locations|Prijenosna lokacija
+Please select the directory containing portable CCleaner.|Navedite putanju koja sadrži prijenosnu inačicu CCleaner-a.
+Debug winapp2.ini entries|Debug winapp2.ini unosi
+Add Portable Aplication|Dodaj prijenosnu aplikaciju
+Add Portable Location|Dodaj prijenosnu lokaciju
+Advanced|Napredno
+Custom Entries|Korisnički unosi
+The following entries will be added to CCleaner after each definition update.|Unosi će biti dodani u CCleaner nakon svakog ažuriranja definicija.
+File|Datoteka
+Help|Pomoć
+Proxy Server:|Proxy poslužitelj:
+Port:|Port:
+Exit|Izlaz
+User Name:|Korisničko ime:
+Password:|Lozinka:
+Save and Close|Spremi i zatvori
+Version|Inačica
+Save Log|Spremi zapis
+Refresh|Osvježi
+Close|Zatvori
+Settings|Postavke
+Documentation|Dokumentacija
+About|O programu
+Check For Update|Provjeri ažuriranja
+Functions|Funkcije
+Proxy Settings|Postavke proxy poslužitelja
+Visit Website|Otvori Web stranicu
+Save to:|Spremi u:
+Save To:|Spremi u:
+File Size:|Veličina datoteke:
+File size:|Veličina datoteke:
+Download Speed:|Brzina preuzimanja:
+Download speed:|Brzina preuzimanja:
+Language:|Jezik:
+Online Documentation|Dokumentacija na internetu
+Saved Path|Putanja spremanja
+Speed|Brzina
+Speed:|Brzina:
+Speed: Calculating...|Brzina: Izračunava se...
+Rules Last Updated:|Zadnje ažuriranje:
+Would you like to save|Želite li spremiti
+so CCEnhancer can find it next time?|tako, da CCleaner to može slijedeći put pronaći?
+Rules Last Updated:|Zadnje ažuriranje:
+Download Latest|Preuzmi najnovije
+Automatically download and install the latest definitions to increase the cleaning capabilities of CCleaner by adding hundreds of extra programs.|Automatski preuzmi i instaliraj nove definicije, kojima se svojstva čišćenja CCleaner-a poboljšavaju dodavanjem stotine drugih programa.
+Buy Me Cake :)|Kupi mi kolačić :)
+Update On Windows startup|Ažuriraj kod pokretanja Windowsa
+Update On Windows Startup|Ažuriraj kod pokretanja Windowsa
+Run CCleaner silently on completion|Kod završetka pokreni CCleaner
+Run CCleaner Silently On Completion|Kod završetka pokreni CCleaner
+Delete Custom Rules|Obriši korisnička pravila
+Install For Portable CCleaner|Instaliraj za prijenosnu inačicu CCleaner-a
+Cancelled|Poništeno
+Download has been cancelled.|Preuzimanje je bilo poništeno.
+Successfully downloaded|Preuzimanje je bilo uspješno
+Would you like to run CCleaner now?|Želite li sada odmah pokrenuti CCleaner?
+Update completed|Ažuriranje završeno
+The rules have not been downloaded yet.|Pravila još nisu bila preuzimana.
+The custom rules were successfully removed.|Korisnička pravila su uspješno uklonjena.
+It looks like the rules aren't installed or you don't have permission to delete the file. You can manually remove the custom rules by deleting the following file:|Izgleda da pravila nisu instalirana ili Vi nemate potrebne ovlasti za brisanje datoteke. Pravila možete ručno vratiti na početne tako, što ćete izbrisati slijedeću datoteku:
+Could not make a connection to The Web Atom server or the Upload Central server. Please see our online help for assistance.|Povezivanje s poslužiteljima Web Atom Server odnosno Upload Central Server nije bilo moguće. Za daljnju pomoć pogledajte stranice naše podrške na Internetu.
+This error can be caused by incorrect proxy settings or a security product conflict.|Dotična pogreška može biti uzrokovana pogrešnim postavkama proxy poslužitelja ili nekim sukobom sa sigurnosnim programom.
+An error was encountered.|Dogodila se greška.
+An error occurred while downloading file. Possible causes:|Kod preuzimanja je nastala greška. Mogući uzroci:
+1) File doesn't exist|1) Datoteka ne postoji
+2) Remote server error|2) Greška kod udaljenog poslužitelja
+error|greška
+CCleaner.exe could not be found in the directory you selected.|U putanji koju ste naveli CCleaner.exe nije bilo moguće pronaći.
+Use proxy server to download definitions?|Koristiti proxy poslužitelj kod preuzimanja definicija?

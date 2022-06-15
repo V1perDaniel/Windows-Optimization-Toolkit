@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Drivers>
+  <Driver Id="bf40077940ee1e8c9c8ca5274c234e556f2a46aa263e67970c532dba313954d8">
+    <DriverName>AMD GPIO Controller</DriverName>
+    <DriverType>Systemgeräte</DriverType>
+    <DriverProvider>Advanced Micro Devices, Inc</DriverProvider>
+    <ClassGuid>{4d36e97d-e325-11ce-bfc1-08002be10318}</ClassGuid>
+    <OldVersion>2.2.0.130</OldVersion>
+    <CurrentVersion>2.2.0.130</CurrentVersion>
+    <UpdatedDate>11/11/2021</UpdatedDate>
+    <UpdatedDateTime>11/11/2021 13:56:43</UpdatedDateTime>
+    <HardwareIds>ACPI\VEN_AMDI&amp;DEV_0030,ACPI\AMDI0030,*AMDI0030</HardwareIds>
+    <CompatibleIds>ACPI\AMDI0030,AMDI0030</CompatibleIds>
+  </Driver>
+  <Driver Id="c3dd17c611eb9d7db97312a3132fae7963d4ef507dda025317e72ee67d1d4b67">
+    <DriverName>AMD PSP 10.0 Device</DriverName>
+    <DriverType>Sicherheitsgeräte</DriverType>
+    <DriverProvider>Advanced Micro Devices Inc.</DriverProvider>
+    <ClassGuid>{d94ee5d8-d189-4994-83d2-f68d7d41b0e6}</ClassGuid>
+    <OldVersion>4.16.0.0</OldVersion>
+    <CurrentVersion>5.17.0.0</CurrentVersion>
+    <UpdatedDate>11/11/2021</UpdatedDate>
+    <UpdatedDateTime>11/11/2021 13:56:55</UpdatedDateTime>
+    <HardwareIds>PCI\VEN_1022&amp;DEV_15DF&amp;SUBSYS_15DF1022&amp;REV_00,PCI\VEN_1022&amp;DEV_15DF&amp;SUBSYS_15DF1022,PCI\VEN_1022&amp;DEV_15DF&amp;CC_108000,PCI\VEN_1022&amp;DEV_15DF&amp;CC_1080</HardwareIds>
+    <CompatibleIds>PCI\VEN_1022&amp;DEV_15DF&amp;REV_00,PCI\VEN_1022&amp;DEV_15DF,PCI\VEN_1022&amp;CC_108000,PCI\VEN_1022&amp;CC_1080,PCI\VEN_1022,PCI\CC_108000&amp;DT_0,PCI\CC_108000,PCI\CC_1080&amp;DT_0,PCI\CC_1080</CompatibleIds>
+  </Driver>
+  <Driver Id="1ece055c66aab03f3ebed1583e38f436477c58a6086a4c81e269d59165eb9417">
+    <DriverName>AMD SMBus</DriverName>
+    <DriverType>Systemgeräte</DriverType>
+    <DriverProvider>Advanced Micro Devices, Inc</DriverProvider>
+    <ClassGuid>{4d36e97d-e325-11ce-bfc1-08002be10318}</ClassGuid>
+    <OldVersion>5.12.0.38</OldVersion>
+    <CurrentVersion>5.12.0.38</CurrentVersion>
+    <UpdatedDate>11/11/2021</UpdatedDate>
+    <UpdatedDateTime>11/11/2021 13:56:58</UpdatedDateTime>
+    <HardwareIds>PCI\VEN_1022&amp;DEV_790B&amp;SUBSYS_18F11043&amp;REV_61,PCI\VEN_1022&amp;DEV_790B&amp;SUBSYS_18F11043,PCI\VEN_1022&amp;DEV_790B&amp;CC_0C0500,PCI\VEN_1022&amp;DEV_790B&amp;CC_0C05</HardwareIds>
+    <CompatibleIds>PCI\VEN_1022&amp;DEV_790B&amp;REV_61,PCI\VEN_1022&amp;DEV_790B,PCI\VEN_1022&amp;CC_0C0500,PCI\VEN_1022&amp;CC_0C05,PCI\VEN_1022,PCI\CC_0C0500,PCI\CC_0C05</CompatibleIds>
+  </Driver>
+  <Driver Id="3827d345fffd7276e0dcab424583c35c1c34f9d299940ff26d5d84859a7e3400">
+    <DriverName>ASUS Precision Touchpad</DriverName>
+    <DriverType>Human Interface Devices</DriverType>
+    <DriverProvider>ASUSTek COMPUTER INC.</DriverProvider>
+    <ClassGuid>{745a17a0-74d3-11d0-b6fe-00a0c90f57da}</ClassGuid>
+    <OldVersion>11.0.0.30</OldVersion>
+    <CurrentVersion>11.0.0.37</CurrentVersion>
+    <UpdatedDate>11/11/2021</UpdatedDate>
+    <UpdatedDateTime>11/11/2021 13:57:01</UpdatedDateTime>
+    <HardwareIds>HID\VEN_ELAN&amp;DEV_1200&amp;Col02,HID\ELAN1200&amp;Col02,HID\*ELAN1200&amp;Col02,HID\VID_04F3&amp;UP:000D_U:0005,HID_DEVICE_UP:000D_U:0005,HID_DEVICE</HardwareIds>
+    <CompatibleIds></CompatibleIds>
+  </Driver>
+  <Driver Id="8c6de75e6f7bc23f13502ff2fd1ab44ac7cbd816a8cd79f444172f5cd2674806">
+    <DriverName>Standard NVM Express Controller</DriverName>
+    <DriverType>Speichercontroller</DriverType>
+    <DriverProvider>Intel Corporation</DriverProvider>
+    <ClassGuid>{4D36E97B-E325-11CE-BFC1-08002BE10318}</ClassGuid>
+    <OldVersion>10.0.19041.1266</OldVersion>
+    <CurrentVersion>18.36.3.1019</CurrentVersion>
+    <UpdatedDate>11/11/2021</UpdatedDate>
+    <UpdatedDateTime>11/11/2021 13:58:57</UpdatedDateTime>
+    <HardwareIds>PCI\VEN_8086&amp;DEV_F1A8&amp;SUBSYS_390D8086&amp;REV_03,PCI\VEN_8086&amp;DEV_F1A8&amp;SUBSYS_390D8086,PCI\VEN_8086&amp;DEV_F1A8&amp;CC_010802,PCI\VEN_8086&amp;DEV_F1A8&amp;CC_0108</HardwareIds>
+    <CompatibleIds>PCI\VEN_8086&amp;DEV_F1A8&amp;REV_03,PCI\VEN_8086&amp;DEV_F1A8,PCI\VEN_8086&amp;CC_010802,PCI\VEN_8086&amp;CC_0108,PCI\VEN_8086,PCI\CC_010802&amp;DT_0,PCI\CC_010802,PCI\CC_0108&amp;DT_0,PCI\CC_0108</CompatibleIds>
+  </Driver>
+  <Driver Id="b91fa4aae6575503e5f2c1b88a6940f3a319bf3bec0f2925275727c11c01492a">
+    <DriverName>Realtek Bluetooth Adapter</DriverName>
+    <DriverType>Bluetooth</DriverType>
+    <DriverProvider>Realtek Semiconductor Corp.</DriverProvider>
+    <ClassGuid>{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}</ClassGuid>
+    <OldVersion>1.3.1016.1</OldVersion>
+    <CurrentVersion>1.7.1022.3004</CurrentVersion>
+    <UpdatedDate>11/11/2021</UpdatedDate>
+    <UpdatedDateTime>11/11/2021 14:00:22</UpdatedDateTime>
+    <HardwareIds>USB\VID_13D3&amp;PID_3530&amp;REV_0110,USB\VID_13D3&amp;PID_3530</HardwareIds>
+    <CompatibleIds>USB\Class_E0&amp;SubClass_01&amp;Prot_01,USB\Class_E0&amp;SubClass_01,USB\Class_E0</CompatibleIds>
+  </Driver>
+  <Driver Id="f66d5ee5236606a72aebbb3f1f0b7b120c0ca91e16a0a951335243bd927031b5">
+    <DriverName>Realtek Hardware Support Application</DriverName>
+    <DriverType>Softwarekomponenten</DriverType>
+    <DriverProvider>Realtek</DriverProvider>
+    <ClassGuid>{5c4c3332-344d-483c-8739-259e934c9cc8}</ClassGuid>
+    <OldVersion>11.0.6000.169</OldVersion>
+    <CurrentVersion>11.0.6000.254</CurrentVersion>
+    <UpdatedDate>11/11/2021</UpdatedDate>
+    <UpdatedDateTime>11/11/2021 14:00:24</UpdatedDateTime>
+    <HardwareIds>SWC\VEN_10EC&amp;HID_0001</HardwareIds>
+    <CompatibleIds>SWC\Generic,SWD\GenericRaw,SWD\Generic</CompatibleIds>
+  </Driver>
+</Drivers>

@@ -1,0 +1,65 @@
+﻿Your changes will take effect when CCEnhancer is restarted.|Zmeny sa prejavia po reštartovaní programu.
+Remove Item|Odstránenie položiek
+Options|Nastavenia
+Portable Locations|Lokalizácie prenosné
+Please select the directory containing portable CCleaner.|Vyberte priečinok,kde sa nachádza prenosná inštalácia CCleaner
+Debug winapp2.ini entries|Záznamy Debug winapp2.ini
+Add Portable Location|Pridaj umiestnenie prenosnej v.
+Advanced|Pokročilé
+File|Súbor
+Help|Pomoc
+Proxy Server:|Proxy Server:
+Port:|Port:
+Exit|Koniec
+User Name:|Užívateľské meno:
+Password:|Heslo:
+Save and Close|Uložiť a zatvoriť
+Version|Verzia
+Save Log|Uložiť log
+Refresh|Obnoviť
+Close|Zatvoriť
+Settings|Nastavenie
+Documentation|Dokumentácia
+About|O aplikácii
+Check For Update|Zkontrolovať aktualizácie
+Functions|Funkcie
+Proxy Settings|Nastavenie proxy
+Visit Website|Návšteva website výrobcu
+Save To:|Uložiť kam:
+Save To:|Uložiť kam:
+File Size:|Veľkosť súboru:
+Download Speed:|Rýchlosť sťahovania:
+Language:|Jazyk:
+Online Documentation|Online verzia dokumentácie
+Saved Path|Uložiť cestu
+Speed|Rýchlosť
+Speed:|Rýchlosť:
+Speed: Calculating...|Rýchosť: počítám...
+Rules Last Updated:|Posledná aktualizácia:
+Would you like to save|Chcete uložiť
+so CCEnhancer can find it next time?|Použijete CCEnhancer nabudúce
+Rules Last Updated:|Aktualizovať na posledné definície:
+Download Latest|Stiahnúť posledné definície
+Automatically download and install the latest definitions to increase the cleaning capabilities of CCleaner by adding hundreds of extra programs.|Stiahnúť najnovšie definície, pre lepšiu čistiacu schopnosť aplikáce CCleaner (pridá sa možnosť vyčistiť zostatky po viacerých programoch oproti oficiálnej verzii CCleaneru)
+Buy Me Cake :)|Kúpte si koláčik :)
+Update On Windows startup|Aktualizovať pri štarte Windows
+Run CCleaner silently on completion|Ticho spustiť CCleaner po kompletnej inštalácii 
+Delete Custom Rules|Vymazať zvolené definície
+Install For Portable CCleaner|Inštalovať na prenosnú verziu CCleaneru
+Cancelled|Zrušené
+Download has been cancelled.|Sťahovanie bolo zrušené.
+Successfully downloaded|Úspešne stiahnuté
+Would you like to run CCleaner now?|Chcete spustiť CCleaner?
+Update completed|Aktualizácia dokončena
+The rules have not been downloaded yet.|Nové definície ešte neboli stiahnuté.
+The custom rules were successfully removed.|Vybrané definície boli úspešne vymazané.
+It looks like the rules aren't installed or you don't have permission to delete the file. You can manually remove the custom rules by deleting the following file:|Nové aktualizované definície asi niesú nainštalované ,alebo súbor nemožno prepísať, pretože aplikácia není spustená v režime Správce počítača:
+Could not make a connection to The Web Atom server or the Upload Central server. Please see our online help for assistance.|Nedá sa pripojiť k aktualizačnému serveru. Pozrite sa prosím na  náš web k riešeniu vašého problému
+This error can be caused by incorrect proxy settings or a security product conflict.|Chyba môže byť zpôsobená nesprávnym nastavením proxy serveru ,alebo je konflikt v inom programe (napr. v Firewallu)
+An error was encountered.|Došlo k chybe.
+An error occurred while downloading file. Possible causes:|Došlo k chybe pri sťahovaní súboru. Možné sú tieto príčiny
+1) File doesn't exist|1) Súbor neexistuje
+2)Remote server error|2) Chyba pri prihlásení k serveru
+error|Chyba
+CCleaner.exe could not be found in the directory you selected.|CCleaner nebol nájdený v zvolenej zložke.
+Use proxy server to download definitions?|Použiť proxy server pre stiahnutie definícii

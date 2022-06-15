@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<UseDefaultProxy>true</UseDefaultProxy>
+<ProxyServer />
+<ProxyPort>80</ProxyPort>
+<ProxyUser />
+<ProxyPassword />
+<AutoCreateStorePoint>false</AutoCreateStorePoint>
+<CloseConfirm>false</CloseConfirm>
+<CloseToTray>false</CloseToTray>
+<ScheduleScan>false</ScheduleScan>
+<UploadHardwareInfo>false</UploadHardwareInfo>
+<Language>en</Language>
+<ShowRestoreNextTime>true</ShowRestoreNextTime>
+<AutoScanWhenLaunched>false</AutoScanWhenLaunched>
+<AutoRunWhenStart>false</AutoRunWhenStart>
+<BackupAutoSelectAll>true</BackupAutoSelectAll>
+<PlaySound>true</PlaySound>
+<ShowShareNextTime>true</ShowShareNextTime>
+<GetDriverFromWindowsUpdate>false</GetDriverFromWindowsUpdate>
+<IsFirstClickGift>true</IsFirstClickGift>
+</Settings>

@@ -1,0 +1,300 @@
+﻿;
+; type64.inf
+;
+; Installs support for Microsoft Keyboard devices
+;
+; Copyright (c) Microsoft Corporation. All rights reserved.
+;
+
+[Version]
+CatalogFile.NT= type64.cat   ;Digital Signing
+Signature="$Windows NT$"     ;All Platforms 
+Class=Keyboard
+ClassGUID={4d36e96b-e325-11ce-bfc1-08002be10318}
+Provider=Microsoft
+DriverVer = 09/10/2020,13.212.137.0
+
+[Manufacturer]
+%Microsoft%=MsMfg, NTamd64.6.1
+
+[SourceDisksNames]
+1 = %IntelliTypeProCD%
+
+
+; =================== Section for Windows 7 or later ===========================
+
+[MsMfg.NTamd64.6.1]
+
+
+;========= Microsoft USB Wireless Natural MultiMedia Keyboard (Mouse and Keyboard Center) - with Wireless Optical Mouse
+%HID\VID_045E&PID_0063&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_0063&MI_00
+
+;========= Microsoft USB Wireless Natural MultiMedia Keyboard (106/109) (Mouse and Keyboard Center) - with Wireless Optical Mouse
+%HID\VID_045E&PID_0065&MI_00.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_0065&MI_00
+
+;========= Microsoft USB Wireless Natural MultiMedia Keyboard (Mouse and Keyboard Center) - with Wireless IntelliMouse Explorer
+%HID\VID_045E&PID_0072&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_0072&MI_00
+
+;========= Microsoft USB Wireless Natural MultiMedia Keyboard (106/109) (Mouse and Keyboard Center) - with Wireless IntelliMouse Explorer
+%HID\VID_045E&PID_0073&MI_00.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_0073&MI_00
+
+;========= Microsoft USB Dual Receiver Wireless Keyboard (Mouse and Keyboard Center)
+%HID\VID_045E&PID_008A&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_008A&MI_00
+
+;========= Microsoft USB Dual Receiver Wireless Keyboard (106/109) (Mouse and Keyboard Center)
+%HID\VID_045E&PID_008B&MI_00.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_008B&MI_00
+
+;========= Microsoft USB Dual Receiver Wireless Keyboard (Mouse and Keyboard Center)
+%HID\VID_045E&PID_009D&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_009D&MI_00
+
+;========= Microsoft USB Dual Receiver Wireless Keyboard (106/109) (Mouse and Keyboard Center)
+%HID\VID_045E&PID_009E&MI_00.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_009E&MI_00
+
+;========= Microsoft USB Comfort Curve Keyboard 2000 (Mouse and Keyboard Center)
+%HID\VID_045E&PID_00DD&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_00DD&MI_00
+
+;========= Microsoft USB Comfort Curve Keyboard 2000 (106/109) (Mouse and Keyboard Center)
+%HID\VID_045E&PID_00DE&MI_00.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_00DE&MI_00
+
+;========= Microsoft USB Natural Ergonomic Keyboard 4000 (Mouse and Keyboard Center)
+%HID\VID_045E&PID_00DB&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_00DB&MI_00
+
+;========= Microsoft USB Natural Ergonomic Keyboard 4000 (106/109) (Mouse and Keyboard Center)
+%HID\VID_045E&PID_00DC&MI_00.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_00DC&MI_00
+
+;========= Microsoft USB Dual Receiver Wireless Keyboard (Mouse and Keyboard Center)
+%HID\VID_045E&PID_00E3&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_00E3&MI_00
+
+;========= Microsoft USB Dual Receiver Wireless Keyboard (106/109) (Mouse and Keyboard Center)
+%HID\VID_045E&PID_00E4&MI_00.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_00E4&MI_00
+
+;========= Microsoft USB Dual Receiver Wireless Keyboard (Mouse and Keyboard Center)
+%HID\VID_045E&PID_00F1&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_00F1&MI_00
+
+;========= Microsoft USB Dual Receiver Wireless Keyboard (106/109) (Mouse and Keyboard Center)
+%HID\VID_045E&PID_00F2&MI_00.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_00F2&MI_00
+
+;========= Microsoft USB Dual Receiver Wireless Keyboard (Mouse and Keyboard Center)
+%HID\VID_045E&PID_00F9&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_00F9&MI_00
+
+;========= Microsoft USB Dual Receiver Wireless Keyboard (106/109) (Mouse and Keyboard Center)
+%HID\VID_045E&PID_00FA&MI_00.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_00FA&MI_00
+
+;========= Microsoft USB Dual Receiver Wireless Keyboard (Mouse and Keyboard Center)
+%HID\VID_045E&PID_071D&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_071D&MI_00
+
+;========= Microsoft USB Dual Receiver Wireless Keyboard (106/109) (Mouse and Keyboard Center)
+%HID\VID_045E&PID_071E&MI_00.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_071E&MI_00
+
+;========= Microsoft Digital Media Keyboard 3000 (Mouse and Keyboard Center)
+%HID\VID_045E&PID_0730&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_0730&MI_00
+
+;========= Microsoft Digital Media Keyboard 3000 (106/109) (Mouse and Keyboard Center)
+%HID\VID_045E&PID_0731&MI_00.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_0731&MI_00
+
+;========= Microsoft Digital Media Keyboard 3000 OEM (Mouse and Keyboard Center)
+%HID\VID_045E&PID_0732&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_0732&MI_00
+
+;========= Microsoft Digital Media Keyboard 3000 OEM (106/109) (Mouse and Keyboard Center)
+%HID\VID_045E&PID_0733&MI_00.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_0733&MI_00
+
+;========= Microsoft SideWinder X6 Keyboard (Mouse and Keyboard Center)
+%HID\VID_045E&PID_074B&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_074B&MI_00
+
+;========= Microsoft SideWinder X6 Keyboard (106/109) (Mouse and Keyboard Center)
+%HID\VID_045E&PID_074C&MI_00.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_074C&MI_00
+
+;========= Microsoft Wired Keyboard 600 (Mouse and Keyboard Center)
+%HID\VID_045E&PID_0750&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_0750&MI_00
+
+;========= Microsoft Wired Keyboard 600 (106/109) (Mouse and Keyboard Center)
+%HID\VID_045E&PID_0751&MI_00.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_0751&MI_00
+
+;========= Microsoft Wired Keyboard 400 (Mouse and Keyboard Center)
+%HID\VID_045E&PID_0752.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_0752
+
+;========= Microsoft Wired Keyboard 400 (106/109) (Mouse and Keyboard Center)
+%HID\VID_045E&PID_0753.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_0753
+
+;========= Microsoft Mercury Receiver for 104 keyboard 0x745(Mouse and Keyboard Center)
+%HID\VID_045E&PID_0745&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_0745&MI_00
+
+;========= Microsoft Mercury Receiver for (106/109) keyboard 0x746(Mouse and Keyboard Center)
+%HID\VID_045E&PID_0746&MI_00.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_0746&MI_00
+
+;========= Microsoft SideWinder X4 Keyboard (Mouse and Keyboard Center)
+%HID\VID_045E&PID_0768&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_0768&MI_00
+
+;========= Microsoft SideWinder X4 Keyboard (106/109) (Mouse and Keyboard Center)
+%HID\VID_045E&PID_0769&MI_00.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_0769&MI_00
+
+;========= Microsoft USB Dual Receiver Wireless Keyboard (Mouse and Keyboard Center)
+%HID\VID_045E&PID_0773&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_0773&MI_00
+
+;========= Microsoft USB Dual Receiver Wireless Keyboard (106/109) (Mouse and Keyboard Center)
+%HID\VID_045E&PID_0774&MI_00.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_0774&MI_00
+
+;========= Microsoft USB Dual Receiver Wireless Keyboard (Mouse and Keyboard Center)
+%HID\VID_045E&PID_07B1&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_07B1&MI_00
+
+;========= Microsoft Mercury Receiver for 104 keyboard 0x7B2(Mouse and Keyboard Center)
+%HID\VID_045E&PID_07B2&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_07B2&MI_00
+
+;========= Microsoft Mercury Receiver for (106/109) keyboard 0x7B3(Mouse and Keyboard Center)
+%HID\VID_045E&PID_07B3&MI_00.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_07B3&MI_00
+
+;========= Microsoft Mercury Receiver for 104 keyboard 0x7A5(Mouse and Keyboard Center)
+%HID\VID_045E&PID_07A5&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_07A5&MI_00
+
+;========= Microsoft Mercury Receiver for (106/109) keyboard 0x7A6(Mouse and Keyboard Center)
+%HID\VID_045E&PID_07A6&MI_00.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_07A6&MI_00
+
+;========= Microsoft Wired Keyboard 600 v2 (Mouse and Keyboard Center)
+%HID\VID_045E&PID_07F8&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_07F8&MI_00
+
+;========= Microsoft Wired Keyboard 600 v2 (106/109) (Mouse and Keyboard Center)
+%HID\VID_045E&PID_07F9&MI_00.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_07F9&MI_00
+
+;========= Microsoft Mercury Receiver for Keyboard 0x800(Mouse and Keyboard Center)
+%HID\VID_045E&PID_0800&MI_00.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_0800&MI_00
+
+;========= Microsoft Mercury Receiver for (106/109) Keyboard 0x801(Mouse and Keyboard Center)
+%HID\VID_045E&PID_0801&MI_00.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_0801&MI_00
+
+;========= Microsoft Ergonomic Keyboard (Mouse and Keyboard Center)
+%HID\VID_045E&PID_082C&MI_00&Col01.DeviceDesc%=MicrosoftKBD_Dev,HID\VID_045E&PID_082C&MI_00&Col01
+
+;========= "Microsoft Ergonomic Keyboard (106/109) (Mouse and Keyboard Center)"
+%HID\VID_045E&PID_082D&MI_00&Col01.DeviceDesc%=MicrosoftKBD_Dev_109,HID\VID_045E&PID_082D&MI_00&Col01
+
+;========= Microsoft Bluetooth Keyboard (Mouse and Keyboard Center)
+%HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02045e_PID&0830&Col01.DeviceDesc%=MicrosoftKBD_Dev,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02045e_PID&0830&Col01
+
+;========= Microsoft Bluetooth Keyboard (106/109) (Mouse and Keyboard Center)
+%HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02045e_PID&0831&Col01.DeviceDesc%=MicrosoftKBD_Dev_109,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02045e_PID&0831&Col01
+
+;========= Microsoft Designer Compact Keyboard (Mouse and Keyboard Center)
+%HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02045e_PID&0832&Col01.DeviceDesc%=MicrosoftKBD_Dev,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02045e_PID&0832&Col01
+
+;========= Microsoft Designer Compact Keyboard (106/109) (Mouse and Keyboard Center)
+%HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02045e_PID&0833&Col01.DeviceDesc%=MicrosoftKBD_Dev_109,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02045e_PID&0833&Col01
+
+;========= Microsoft Number Pad (Mouse and Keyboard Center)
+%HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02045e_PID&0836&Col01.DeviceDesc%=MicrosoftKBD_Dev,HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02045e_PID&0836&Col01
+
+; ========= Install section for USB Keyboard Devices ============
+
+[MicrosoftKBD_Dev.NTamd64]
+Include = keyboard.inf
+Needs	= HID_Keyboard_Inst.NT
+
+[MicrosoftKBD_Dev.NTamd64.Services]
+Include = keyboard.inf
+Needs	= HID_Keyboard_Inst.NT.Services
+
+[MicrosoftKBD_Dev.NTamd64.HW]
+Include = keyboard.inf
+Needs	= HID_Keyboard_Inst.NT.HW
+
+;========== used for USB 109 layout (NTamd64) ==========
+
+[MicrosoftKBD_Dev_109.NTamd64]
+Include = keyboard.inf
+Needs	= HID_Keyboard_Inst.NT,HID_106_Keyboard_Inst.NT
+
+; This section must not use the needs for the 106 section in keyboard.inf
+; This creates recursion on Win2k, which is not allowed in INFs.
+
+[MicrosoftKBD_Dev_109.NTamd64.Services]
+Include = keyboard.inf
+Needs	= HID_Keyboard_Inst.NT.Services
+
+[MicrosoftKBD_Dev_109.NTamd64.HW]
+Include = keyboard.inf
+Needs	= HID_106_Keyboard_Inst.NT.HW
+
+; ======================== Strings ==========================
+
+[Strings]
+
+Microsoft="Microsoft"
+IntelliTypeProCD="Microsoft Mouse and Keyboard Center CD"
+DeviceDesc="Microsoft Mouse and Keyboard Center Driver"
+
+; with Wireless Optical Mouse
+HID\VID_045E&PID_0063&MI_00.DeviceDesc = "Microsoft USB Wireless Natural MultiMedia Keyboard (Mouse and Keyboard Center)"
+HID\VID_045E&PID_0065&MI_00.DeviceDesc = "Microsoft USB Wireless Natural MultiMedia Keyboard (106/109) (Mouse and Keyboard Center)"
+
+; with WIME
+HID\VID_045E&PID_0072&MI_00.DeviceDesc = "Microsoft USB Wireless Natural MultiMedia Keyboard (Mouse and Keyboard Center)"
+HID\VID_045E&PID_0073&MI_00.DeviceDesc = "Microsoft USB Wireless Natural MultiMedia Keyboard (106/109) (Mouse and Keyboard Center)"
+
+HID\VID_045E&PID_008A&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (Mouse and Keyboard Center)"
+HID\VID_045E&PID_008B&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (106/109) (Mouse and Keyboard Center)"
+
+HID\VID_045E&PID_009D&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (Mouse and Keyboard Center)"
+HID\VID_045E&PID_009E&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (106/109) (Mouse and Keyboard Center)"
+
+HID\VID_045E&PID_00DD&MI_00.DeviceDesc = "Microsoft USB Comfort Curve Keyboard 2000 (Mouse and Keyboard Center)"
+HID\VID_045E&PID_00DE&MI_00.DeviceDesc = "Microsoft USB Comfort Curve Keyboard 2000 (106/109) (Mouse and Keyboard Center)"
+
+HID\VID_045E&PID_00DB&MI_00.DeviceDesc = "Microsoft USB Natural Ergonomic Keyboard 4000 (Mouse and Keyboard Center)"
+HID\VID_045E&PID_00DC&MI_00.DeviceDesc = "Microsoft USB Natural Ergonomic Keyboard 4000 (106/109) (Mouse and Keyboard Center)"
+
+HID\Vid_045E&Pid_00E3&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (Mouse and Keyboard Center)"
+HID\Vid_045E&Pid_00E4&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (106/109) (Mouse and Keyboard Center)"
+
+HID\Vid_045E&Pid_00F1&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (Mouse and Keyboard Center)"
+HID\Vid_045E&Pid_00F2&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (106/109) (Mouse and Keyboard Center)"
+
+HID\Vid_045E&Pid_00F9&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (Mouse and Keyboard Center)"
+HID\Vid_045E&Pid_00FA&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (106/109) (Mouse and Keyboard Center)"
+
+HID\Vid_045E&Pid_071D&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (Mouse and Keyboard Center)"
+HID\Vid_045E&Pid_071E&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (106/109) (Mouse and Keyboard Center)"
+
+HID\VID_045E&PID_0730&MI_00.DeviceDesc = "Microsoft Digital Media Keyboard 3000 (Mouse and Keyboard Center)"
+HID\VID_045E&PID_0731&MI_00.DeviceDesc = "Microsoft Digital Media Keyboard 3000 (106/109) (Mouse and Keyboard Center)"
+HID\VID_045E&PID_0732&MI_00.DeviceDesc = "Microsoft Digital Media Keyboard 3000 (Mouse and Keyboard Center)"
+HID\VID_045E&PID_0733&MI_00.DeviceDesc = "Microsoft Digital Media Keyboard 3000 (106/109) (Mouse and Keyboard Center)"
+
+HID\VID_045E&PID_074B&MI_00.DeviceDesc = "Microsoft SideWinder X6 Keyboard (Mouse and Keyboard Center)"
+HID\VID_045E&PID_074C&MI_00.DeviceDesc = "Microsoft SideWinder X6 Keyboard (106/109) (Mouse and Keyboard Center)"
+
+HID\VID_045E&PID_0750&MI_00.DeviceDesc = "Microsoft Wired Keyboard 600 (Mouse and Keyboard Center)"
+HID\VID_045E&PID_0751&MI_00.DeviceDesc = "Microsoft Wired Keyboard 600 (106/109) (Mouse and Keyboard Center)"
+
+HID\VID_045E&PID_0752.DeviceDesc = "Microsoft Wired Keyboard 400 (Mouse and Keyboard Center)"
+HID\VID_045E&PID_0753.DeviceDesc = "Microsoft Wired Keyboard 400 (106/109) (Mouse and Keyboard Center)"
+
+HID\VID_045E&PID_0745&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (Mouse and Keyboard Center)"
+HID\VID_045E&PID_0746&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (106/109) (Mouse and Keyboard Center)"
+
+HID\VID_045E&PID_0768&MI_00.DeviceDesc = "Microsoft SideWinder X4 Keyboard (Mouse and Keyboard Center)"
+HID\VID_045E&PID_0769&MI_00.DeviceDesc = "Microsoft SideWinder X4 Keyboard (106/109) (Mouse and Keyboard Center)"
+
+HID\VID_045E&PID_0773&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (Mouse and Keyboard Center)"
+HID\VID_045E&PID_0774&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (106/109) (Mouse and Keyboard Center)"
+
+HID\VID_045E&PID_07B1&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (Mouse and Keyboard Center)"
+
+HID\VID_045E&PID_07B2&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (Mouse and Keyboard Center)"
+HID\VID_045E&PID_07B3&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (106/109) (Mouse and Keyboard Center)"
+
+HID\VID_045E&PID_07A5&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (Mouse and Keyboard Center)"
+HID\VID_045E&PID_07A6&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (106/109) (Mouse and Keyboard Center)"
+
+HID\VID_045E&PID_07F8&MI_00.DeviceDesc = "Microsoft Wired Keyboard 600 (Mouse and Keyboard Center)"
+HID\VID_045E&PID_07F9&MI_00.DeviceDesc = "Microsoft Wired Keyboard 600 (106/109) (Mouse and Keyboard Center)"
+
+HID\VID_045E&PID_0800&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (Mouse and Keyboard Center)"
+HID\VID_045E&PID_0801&MI_00.DeviceDesc = "Microsoft USB Dual Receiver Wireless Keyboard (106/109) (Mouse and Keyboard Center)"
+
+HID\VID_045E&PID_082C&MI_00&Col01.DeviceDesc = "Microsoft Ergonomic Keyboard (Mouse and Keyboard Center)"
+HID\VID_045E&PID_082D&MI_00&Col01.DeviceDesc = "Microsoft Ergonomic Keyboard (106/109) (Mouse and Keyboard Center)"
+
+HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02045e_PID&0830&Col01.DeviceDesc = "Microsoft Bluetooth Keyboard (Mouse and Keyboard Center)"
+HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02045e_PID&0831&Col01.DeviceDesc = "Microsoft Bluetooth Keyboard (106/109) (Mouse and Keyboard Center)"
+HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02045e_PID&0832&Col01.DeviceDesc = "Microsoft Designer Compact Keyboard (Mouse and Keyboard Center)"
+HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02045e_PID&0833&Col01.DeviceDesc = "Microsoft Designer Compact Keyboard (106/109) (Mouse and Keyboard Center)"
+HID\{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02045e_PID&0836&Col01.DeviceDesc = "Microsoft Number Pad (Mouse and Keyboard Center)"

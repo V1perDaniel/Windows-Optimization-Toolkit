@@ -1,0 +1,51 @@
+﻿;Interface
+Rules Last Updated:|上次更新：
+File Size:|檔案大小：
+Save To:|儲存位置：
+Save to:|儲存位置：
+Download Speed:|下載速度：
+Speed:|下載速度：
+Speed: Calculating...|下載速度：計算中…
+Download Latest|下載最新定義檔
+Automatically download and install the latest definitions to increase the cleaning capabilities of CCleaner by adding hundreds of extra programs.|自動下載最新的定義檔，提供 CCleaner 針對其他數以百計的程式額外的清理能力。本譯文由 zip23 整理，部分翻譯可能不完全。
+Functions|功能
+Settings|設定
+Advanced|進階
+
+;Functions|功能
+Delete Custom Rules|刪除定義檔
+Removes the custom cleaning rules provided by CCEnhancer |移除由 CCEnhancer 提供的規則
+Add Portable Location|新增攜帶版 CCleaner 位置
+Allows you to set a custom folder to download CCEnhancer's definitions into|允許您將定義檔同步下載至添加的位置
+Please select the directory containing portable CCleaner.|選擇一個用來放置定義檔的資料夾
+
+;Settings|設定
+Options|選項
+Language:|語系
+English|英文
+Chinese|繁體中文
+Chinese_Simplified|簡體中文
+Japanese|日文
+Korean|韓文
+Update On Windows startup|系統啟動時自動更新
+Run CCleaner silently on completion|規則下載完成時啟動 CCleaner
+Trim definition file to improve performance|精簡定義檔以增進效能
+Portable Locations|攜帶版位置
+Remove Item|移除位置
+Add Item|新增位置
+Custom Entries|自訂規則
+The following entries will be added to CCleaner after each definition update.|您的自訂規則將在更新後加入檔案中
+Save and Close|儲存並關閉
+Your changes will take effect when CCEnhancer is restarted. |您的設定將在重新啟動後生效。
+
+
+;Advanced|進階
+Debug winapp2.ini entries|檢查 winapp2.ini 定義檔錯誤
+This button is for advanced users to check for errors in their custom rules|這個選項提供進階使用者檢查自訂規則有無錯誤
+Completed analysis of winapp2.ini.|定義檔完成檢查。
+errors were detected.| 個錯誤被發現。
+Use alternative download URL|使用替代的下載連結
+Uses an alternative method of downloading. Useful if the normal method doesn't work.|使用另外的下載通道，預設通道無效時相當有用
+Trim winapp2.ini|精簡 winapp2.ini 定義檔
+Remove cleaning rules that don't apply to your system|移除對您的系統中沒有效用的規則
+Trimmed winapp2.ini in:|成功精簡定義檔，檔案位置：

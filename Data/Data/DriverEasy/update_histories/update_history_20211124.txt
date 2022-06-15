@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Drivers>
+  <Driver Id="39503ef9773ce1a44aae33f66d615df8dcba8fc5c83a9383e73a3a4cff7f9609">
+    <DriverName>USB Composite Device</DriverName>
+    <DriverType>USB-Controller</DriverType>
+    <DriverProvider>Logitech</DriverProvider>
+    <ClassGuid>{36FC9E60-C465-11CF-8056-444553540000}</ClassGuid>
+    <OldVersion>10.0.19041.488</OldVersion>
+    <CurrentVersion>13.80.853.0</CurrentVersion>
+    <UpdatedDate>11/24/2021</UpdatedDate>
+    <UpdatedDateTime>11/24/2021 15:58:57</UpdatedDateTime>
+    <HardwareIds>USB\VID_046D&amp;PID_0825&amp;REV_0012,USB\VID_046D&amp;PID_0825</HardwareIds>
+    <CompatibleIds>USB\DevClass_00&amp;SubClass_00&amp;Prot_00,USB\DevClass_00&amp;SubClass_00,USB\DevClass_00,USB\COMPOSITE</CompatibleIds>
+  </Driver>
+  <Driver Id="27b1473e1214d7436583a372de4f046d8876ac52ba31f27069c377bb6db20559">
+    <DriverName>USB2.0 HD UVC WebCam</DriverName>
+    <DriverType>Kameras</DriverType>
+    <DriverProvider>Realtek</DriverProvider>
+    <ClassGuid>{ca3e7ab9-b4c3-4ae6-8251-579ef933890f}</ClassGuid>
+    <OldVersion>10.0.22000.20197</OldVersion>
+    <CurrentVersion>10.0.22000.20203</CurrentVersion>
+    <UpdatedDate>11/24/2021</UpdatedDate>
+    <UpdatedDateTime>11/24/2021 16:05:08</UpdatedDateTime>
+    <HardwareIds>USB\VID_13D3&amp;PID_56A2&amp;REV_1902&amp;MI_00,USB\VID_13D3&amp;PID_56A2&amp;MI_00</HardwareIds>
+    <CompatibleIds>USB\Class_0e&amp;SubClass_03&amp;Prot_00,USB\Class_0e&amp;SubClass_03,USB\Class_0e</CompatibleIds>
+  </Driver>
+</Drivers>

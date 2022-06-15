@@ -1,0 +1,73 @@
+﻿File|파일
+Help|도움말
+Proxy Server:|프록시 서버:
+Port:|포트:
+Exit|나가기
+User Name:|유저 이름:
+Password:|암호:
+Save and Close|저장 및 닫기
+Version|버젼
+Save Log|저장 기록
+Refresh|새로고침
+Close|종료
+Settings|설정
+Documentation|문서
+About|대하여..
+Check For Update|업데이트 확인
+Functions|기능
+Proxy Settings|프록시 설정
+Visit Website|웹사이트 방문
+Save To:|저장 경로:
+File Size:|파일 크기:
+Download Speed:|다운 속도:
+Language:|언어:
+Online Documentation|온라인 문서
+Saved Path|저장 경로
+Speed:|속도:
+Speed: Calculating...|속도: 계산중...
+Rules Last Updated:|최근 규칙 :
+Would you like to save|저장하시겠습니까?
+so CCEnhancer can find it next time?|다음에 찾을까요?
+Rules Last Updated|마지막 업데이트 규칙
+Download Latest|규칙 업데이트
+Automatically download and install the latest definitions to increase the cleaning capabilities of CCleaner by adding hundreds of extra programs.|CCEnhancer는 CCleaner의 기능을 극대화하기 위해 수백 가지 프로그램의 규칙을 자동으로 다운로드하여 적용합니다.
+Buy Me Cake :)|케잌 사주세욥 :)
+Update On Windows Startup|윈도시작시 업데이트
+Run CCleaner Silently On Completion|완료후 CCleaner실행
+Delete Custom Rules|사용자정의규칙 삭제
+Install For Portable CCleaner|CCleaner 포터블에 설치
+Cancelled|최소됨
+Download has been cancelled.|다운로드가 중지되었습니다.
+Successfully downloaded|다운로드 완료
+Would you like to run CCleaner now?|지금 CCleaner를 실행하시겠습니까?
+Update completed|업데이트 완료
+The rules have not been downloaded yet.|규칙이 다운로드 되지 않았습니다.
+The custom rules were successfully removed.|사용자정의규칙이 삭제되었습니다.
+It looks like the rules aren't installed or you don't have permission to delete the file. You can manually remove the custom rules by deleting the following file:|규칙이 존재하지 않거나 삭제할 권한이 없습니다. 수동으로 삭제하여 임의규칙을 제거할 수 있습니다:
+Could not make a connection to The Web Atom server or the Upload Central server. Please see our online help for assistance.|웹 아톰 서버 혹은 업로드 서버에 연결할 수 없습니다. 온라인 도움말을 참조하세요.
+This error can be caused by incorrect proxy settings or a security product conflict.|이 에러는 잘못된 프록시 설정이나 보안프로그램 때문에 발생할 수 있습니다.
+An error was encountered.|오류가 발생했습니다.
+An error occurred while downloading file. Possibe causes:|다운로드중 오류가 발생했습니다. 다음이 원인일 수 있습니다:
+1) File doesn't exist|1) 파일이 존재 하지 않습니다.
+2) Remote server error|2) 리모트 서버 에러.
+error|에러
+Please select the directory containing portable CCleaner.|CCleaner 포터블이 있는 경로를 지정해주세요.
+CCleaner.exe could not be found in the directory you selected.|CCleaner.exe가 지정하신 경로에 존재 하지 않습니다.
+Use proxy server to download definitions?|프록시서버를 사용하시겠습니까?
+Advanced|고급
+Use IE Native Downloader|IE로 다운로드
+Debug winapp2.ini entries|규칙 디버그
+Trim winapp2.ini|규칙 최적화
+Use alternative download URL|다른 다운로드 주소 사용
+Update On Windows startup|Windows가 시작할때 업데이트
+Options|옵션
+Portable Locations|포터블 경로
+Add Portable Location|포터블 경로 추가
+Custom Entries|사용자정의규칙
+The following entries will be added to CCleaner after each definition update.|다음 항목은 각 정의 업데이트 후 CCleaner에 추가됩니다.
+Run CCleaner silently on completion|완료시 자동으로 CCleaner를 실행
+Trim definition file to improve performance|성능향상을 위해 규칙최적화
+winapp2.ini file could not be located.|정의파일이 경로에 존재하지 않습니다.
+Trimmed winapp2.ini in:|다음 경로의 규칙이 최적화 되었습니다 :
+Completed analysis of winapp2.ini.|규칙을 검사했습니다.
+errors were detected.|개의 에러가 검출됨.

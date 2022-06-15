@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Drivers>
+  <Driver Id="d91b74f01fa087d40506a1ce09d7a1708319f344a19856a056fc9e7955a39357">
+    <DriverName>Realtek Asio Component</DriverName>
+    <DriverType>Softwarekomponenten</DriverType>
+    <DriverProvider>Realtek</DriverProvider>
+    <ClassGuid>{5c4c3332-344d-483c-8739-259e934c9cc8}</ClassGuid>
+    <OldVersion>1.0.0.4</OldVersion>
+    <CurrentVersion>1.0.0.8</CurrentVersion>
+    <UpdatedDate>11/18/2021</UpdatedDate>
+    <UpdatedDateTime>11/18/2021 14:40:27</UpdatedDateTime>
+    <HardwareIds>SWC\VEN_10EC&amp;ASIO_ID_0001</HardwareIds>
+    <CompatibleIds>SWC\Generic,SWD\GenericRaw,SWD\Generic</CompatibleIds>
+  </Driver>
+  <Driver Id="0de2abd4907173d6a9486073257bd8e47a5e561fbf5fcdb1bfa2d53369a90ab5">
+    <DriverName>Realtek Audio Effects Component</DriverName>
+    <DriverType>Softwarekomponenten</DriverType>
+    <DriverProvider>Realtek</DriverProvider>
+    <ClassGuid>{5c4c3332-344d-483c-8739-259e934c9cc8}</ClassGuid>
+    <OldVersion>11.0.6000.670</OldVersion>
+    <CurrentVersion>11.0.6000.954</CurrentVersion>
+    <UpdatedDate>11/18/2021</UpdatedDate>
+    <UpdatedDateTime>11/18/2021 14:42:03</UpdatedDateTime>
+    <HardwareIds>SWC\VEN_10EC&amp;AID_0001</HardwareIds>
+    <CompatibleIds>SWC\Generic,SWD\GenericRaw,SWD\Generic</CompatibleIds>
+  </Driver>
+  <Driver Id="97b13baa66bd29fb8463e52968c36365ae1cb3effa4bdbe70e8d9c2629c3ae42">
+    <DriverName>Realtek Audio Universal Service</DriverName>
+    <DriverType>Softwarekomponenten</DriverType>
+    <DriverProvider>Realtek</DriverProvider>
+    <ClassGuid>{5c4c3332-344d-483c-8739-259e934c9cc8}</ClassGuid>
+    <OldVersion>1.0.0.153</OldVersion>
+    <CurrentVersion>1.0.0.422</CurrentVersion>
+    <UpdatedDate>11/18/2021</UpdatedDate>
+    <UpdatedDateTime>11/18/2021 14:42:56</UpdatedDateTime>
+    <HardwareIds>SWC\VEN_10EC&amp;SID_0001</HardwareIds>
+    <CompatibleIds>SWC\Generic,SWD\GenericRaw,SWD\Generic</CompatibleIds>
+  </Driver>
+  <Driver Id="5db44cb7c3e992f566a2aa03130c7ba237e41c754b59cdb004ef25b849ca2449">
+    <DriverName>USB2.0 HD UVC WebCam</DriverName>
+    <DriverType>Kameras</DriverType>
+    <DriverProvider>Realtek</DriverProvider>
+    <ClassGuid>{ca3e7ab9-b4c3-4ae6-8251-579ef933890f}</ClassGuid>
+    <OldVersion>10.0.19041.1202</OldVersion>
+    <CurrentVersion>10.0.22000.20197</CurrentVersion>
+    <UpdatedDate>11/18/2021</UpdatedDate>
+    <UpdatedDateTime>11/18/2021 14:48:59</UpdatedDateTime>
+    <HardwareIds>USB\VID_13D3&amp;PID_56A2&amp;REV_1902&amp;MI_00,USB\VID_13D3&amp;PID_56A2&amp;MI_00</HardwareIds>
+    <CompatibleIds>USB\Class_0e&amp;SubClass_03&amp;Prot_00,USB\Class_0e&amp;SubClass_03,USB\Class_0e</CompatibleIds>
+  </Driver>
+  <Driver Id="424a5b3e6e5ad07a7efaabd4c7f853f006b3ed11733374a3f350fedd0e0cd1dc">
+    <DriverName>USB Mass Storage Device</DriverName>
+    <DriverType>USB-Controller</DriverType>
+    <DriverProvider>Alcor Micro, Corp.</DriverProvider>
+    <ClassGuid>{36FC9E60-C465-11CF-8056-444553540000}</ClassGuid>
+    <OldVersion>10.0.19041.1288</OldVersion>
+    <CurrentVersion>2.0.154.10230</CurrentVersion>
+    <UpdatedDate>11/18/2021</UpdatedDate>
+    <UpdatedDateTime>11/18/2021 14:49:18</UpdatedDateTime>
+    <HardwareIds>USB\VID_058F&amp;PID_6332&amp;REV_0205,USB\VID_058F&amp;PID_6332</HardwareIds>
+    <CompatibleIds>USB\Class_08&amp;SubClass_06&amp;Prot_50,USB\Class_08&amp;SubClass_06,USB\Class_08</CompatibleIds>
+  </Driver>
+  <Driver Id="e6311644870e2273b1da0b4f8f4d1b2feb870e68205b16de7b528f0e28b0deb2">
+    <DriverName>Generic PnP Monitor</DriverName>
+    <DriverType>Monitore</DriverType>
+    <DriverProvider>BenQ Inc.</DriverProvider>
+    <ClassGuid>{4D36E96E-E325-11CE-BFC1-08002BE10318}</ClassGuid>
+    <OldVersion>10.0.19041.1151</OldVersion>
+    <CurrentVersion>1.0</CurrentVersion>
+    <UpdatedDate>11/18/2021</UpdatedDate>
+    <UpdatedDateTime>11/18/2021 14:49:20</UpdatedDateTime>
+    <HardwareIds>MONITOR\BNQ78DB</HardwareIds>
+    <CompatibleIds>*PNP09FF</CompatibleIds>
+  </Driver>
+</Drivers>

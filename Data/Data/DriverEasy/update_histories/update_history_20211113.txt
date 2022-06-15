@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Drivers>
+  <Driver Id="54a7b99724802df276896b62ff4f0c0ad7c30eb558707041ec92e6b1afe96865">
+    <DriverName>NVIDIA Virtual Audio Device (Wave Extensible) (WDM)</DriverName>
+    <DriverType>Audio, Video und Gamecontroller</DriverType>
+    <DriverProvider>NVIDIA</DriverProvider>
+    <ClassGuid>{4d36e96c-e325-11ce-bfc1-08002be10318}</ClassGuid>
+    <OldVersion>4.13.0.0</OldVersion>
+    <CurrentVersion>4.16.0.0</CurrentVersion>
+    <UpdatedDate>11/13/2021</UpdatedDate>
+    <UpdatedDateTime>11/13/2021 20:35:35</UpdatedDateTime>
+    <HardwareIds>USB\VID_0955&amp;PID_9000</HardwareIds>
+    <CompatibleIds></CompatibleIds>
+  </Driver>
+</Drivers>
